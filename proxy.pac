@@ -87,3 +87,4 @@ function FindProxyForURL(url, host)
     // Default: use proxy
     return proxyServer;
 }
+
