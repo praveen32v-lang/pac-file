@@ -57,6 +57,7 @@ function FindProxyForURL(url, host)
         shExpMatch(host, "security.microsoft.com") ||
         shExpMatch(host, "smtp.office365.com") ||
         shExpMatch(host, "teams.cloud.microsoft") ||
+        shExpMatch(host, "turbo-qhxk42r2.edge.prod.fortisase.com") ||
         shExpMatch(host, "teams.microsoft.com")) {
         return direct;
     }
@@ -90,6 +91,7 @@ function FindProxyForURL(url, host)
     // Default: use proxy
     return proxyServer;
 }
+
 
 
 
